@@ -12,6 +12,8 @@
 		CBCD4AB01F0A336800EC270A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCD4AAE1F0A336800EC270A /* Main.storyboard */; };
 		CBCD4AB21F0A336800EC270A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBCD4AB11F0A336800EC270A /* Assets.xcassets */; };
 		CBCD4AB51F0A336800EC270A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCD4AB31F0A336800EC270A /* LaunchScreen.storyboard */; };
+		CBCD4AC11F0A366700EC270A /* ViewScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCD4AC01F0A366700EC270A /* ViewScroll.swift */; };
+		CBCD4AC31F0A4F9400EC270A /* shop1-0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBCD4AC21F0A4F9400EC270A /* shop1-0.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		CBCD4AB11F0A336800EC270A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBCD4AB41F0A336800EC270A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBCD4AB61F0A336800EC270A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBCD4AC01F0A366700EC270A /* ViewScroll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewScroll.swift; sourceTree = "<group>"; };
+		CBCD4AC21F0A4F9400EC270A /* shop1-0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "shop1-0.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 		CBCD4AA91F0A336800EC270A /* FashionShop */ = {
 			isa = PBXGroup;
 			children = (
+				CBCD4AC21F0A4F9400EC270A /* shop1-0.jpg */,
 				CBCD4AAA1F0A336800EC270A /* AppDelegate.swift */,
 				CBCD4AAC1F0A336800EC270A /* ViewController.swift */,
+				CBCD4AC01F0A366700EC270A /* ViewScroll.swift */,
 				CBCD4AAE1F0A336800EC270A /* Main.storyboard */,
 				CBCD4AB11F0A336800EC270A /* Assets.xcassets */,
 				CBCD4AB31F0A336800EC270A /* LaunchScreen.storyboard */,
@@ -126,6 +132,7 @@
 			files = (
 				CBCD4AB51F0A336800EC270A /* LaunchScreen.storyboard in Resources */,
 				CBCD4AB21F0A336800EC270A /* Assets.xcassets in Resources */,
+				CBCD4AC31F0A4F9400EC270A /* shop1-0.jpg in Resources */,
 				CBCD4AB01F0A336800EC270A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBCD4AC11F0A366700EC270A /* ViewScroll.swift in Sources */,
 				CBCD4AAD1F0A336800EC270A /* ViewController.swift in Sources */,
 				CBCD4AAB1F0A336800EC270A /* AppDelegate.swift in Sources */,
 			);
@@ -304,6 +312,7 @@
 				CBCD4ABB1F0A336800EC270A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
